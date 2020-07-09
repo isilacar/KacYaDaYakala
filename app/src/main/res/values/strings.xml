@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kac Ya Da Yakala</string>
+    <string name="karakterIsim">Karakterinizin İsmini Giriniz..</string>
+    <string name="oyunaBasla">OYUNA BAŞLA</string>
+    <string name="bilgi">BİLGİ</string>
+    <string name="bilgiAciklama">Karakterimizi aşağı yukarı hareket ettirerek ekrandaki nesneleri almaya çalışıyoruz.
+        Ekrana dokunduğunuzda karakterimiz yukarı çıkıyor,bıraktığınızda aşağı iniyor. Nesneleri alırken dikkatli
+        olmanız gerekiyor.
+        Çünkü kırmızı nesne puanınızı sıfırlar. Siyah nesne ise oyunu bitirir.
+    </string>
+    <string name="anaekran">ANA EKRAN</string>
+    <string name="oyunBitti">OYUN BİTTİ</string>
+    <string name="puanınız">PUANIN</string>
+    <string name="enYuksekSkor">EN YÜKSEK SKORUN</string>
+    <string name="tekrarOyna">TEKRAR OYNA</string>
+    <string name="oyunekraniPuan">PUAN</string>
+    <string name="baslamakicin">Oyuna Başlamak İçin Ekrana Tıklayın</string>
+    <string name="bannerReklam">ca-app-pub-5037089565212879/3728541260</string>
+    <string name="cikis">ÇIKIŞ</string>
+    <string name="eminmisin">Çıkmak istediğinize emin misiniz?</string>
+    <string name="evet">EVET</string>
+    <string name="hayir">HAYIR</string>
+    <string name="bilgiKirmizi">PUANI SIFIRLAR</string>
+    <string name="bilgiSiyah">OYUN BİTER</string>
+    <string name="isimAlani">Karakter ismi boş bırakılamaz..</string>
+
+</resources>

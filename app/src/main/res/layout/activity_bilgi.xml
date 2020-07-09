@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Bilgi" android:background="#bbdefb">
+    <TextView
+            android:text="@string/bilgiSiyah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/bilgiSiyahPuan"
+            android:textSize="24sp" android:layout_marginTop="28dp"
+            ads:layout_constraintTop_toBottomOf="@+id/bilgiKirmiziPuan" ads:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="48dp" android:layout_marginRight="48dp"/>
+    <TextView
+            android:text="40p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView11"
+            android:textSize="24sp" android:layout_marginTop="28dp"
+            ads:layout_constraintTop_toBottomOf="@+id/textView" ads:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="144dp" android:layout_marginRight="144dp"/>
+    <TextView
+            android:text="20p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView10"
+            android:textSize="24sp" android:layout_marginTop="17dp"
+            ads:layout_constraintTop_toBottomOf="@+id/textView11" ads:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="144dp" android:layout_marginRight="144dp"/>
+    <TextView
+            android:text="10p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView9"
+            android:textSize="24sp" android:layout_marginTop="8dp"
+            ads:layout_constraintTop_toBottomOf="@+id/textView10" ads:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="144dp" android:layout_marginRight="144dp"/>
+    <TextView
+            android:text="25p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView8"
+            android:textSize="24sp" android:layout_marginTop="9dp"
+            ads:layout_constraintTop_toBottomOf="@+id/textView9" ads:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="144dp" android:layout_marginRight="144dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="36dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/bilgiAciklama" android:textSize="20sp" android:textStyle="bold"
+            android:gravity="center" android:textColor="#9C27B0"/>
+    <Button
+            android:text="@string/anaekran"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content" android:id="@+id/bilgiAnaekranButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@android:color/holo_orange_light"
+            ads:layout_constraintTop_toBottomOf="@+id/bilgiSiyahPuan" android:layout_marginTop="16dp"
+            ads:layout_constraintHorizontal_bias="0.422"/>
+    <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerBilgi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/bannerReklam"
+            ads:layout_constraintEnd_toEndOf="parent"
+            ads:layout_constraintHorizontal_bias="0.0"
+            ads:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" ads:srcCompat="@drawable/mavi" android:id="@+id/imageView4"
+            android:layout_marginTop="28dp"
+            ads:layout_constraintTop_toBottomOf="@+id/textView" ads:layout_constraintEnd_toStartOf="@+id/textView11"
+            android:layout_marginEnd="132dp" android:layout_marginRight="132dp"/>
+    <TextView
+            android:text="@string/bilgiKirmizi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/bilgiKirmiziPuan"
+            android:textSize="24sp" android:layout_marginTop="11dp"
+            ads:layout_constraintTop_toBottomOf="@+id/textView8" ads:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp" android:layout_marginRight="10dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" ads:srcCompat="@drawable/pembe" android:id="@+id/imageView5"
+            android:layout_marginTop="20dp"
+            ads:layout_constraintTop_toBottomOf="@+id/imageView6" ads:layout_constraintEnd_toStartOf="@+id/textView9"
+            android:layout_marginEnd="132dp" android:layout_marginRight="132dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" ads:srcCompat="@drawable/sari" android:id="@+id/imageView6"
+            android:layout_marginTop="20dp"
+            ads:layout_constraintTop_toBottomOf="@+id/imageView4" ads:layout_constraintEnd_toStartOf="@+id/textView10"
+            android:layout_marginEnd="132dp" android:layout_marginRight="132dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" ads:srcCompat="@drawable/yesil" android:id="@+id/imageView7"
+            android:layout_marginTop="12dp"
+            ads:layout_constraintTop_toBottomOf="@+id/imageView5" ads:layout_constraintEnd_toStartOf="@+id/textView8"
+            android:layout_marginEnd="132dp" android:layout_marginRight="132dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" ads:srcCompat="@drawable/kirmizi" android:id="@+id/imageView8"
+            android:layout_marginTop="16dp"
+            ads:layout_constraintTop_toBottomOf="@+id/imageView7"
+            ads:layout_constraintEnd_toStartOf="@+id/bilgiKirmiziPuan"
+            android:layout_marginEnd="132dp" android:layout_marginRight="132dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" ads:srcCompat="@drawable/siyah" android:id="@+id/imageView9"
+            android:layout_marginTop="20dp"
+            ads:layout_constraintTop_toBottomOf="@+id/imageView8"
+            ads:layout_constraintEnd_toStartOf="@+id/bilgiSiyahPuan"
+            android:layout_marginEnd="132dp" android:layout_marginRight="132dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
